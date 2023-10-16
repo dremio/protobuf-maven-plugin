@@ -72,4 +72,4 @@ available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.h
 
 [homepage]: https://www.contributor-covenant.org
 [version]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-[email]: mailto:code-of-conduct@xolstice.org
+[email]: mailto:codeofconduct@dremio.com

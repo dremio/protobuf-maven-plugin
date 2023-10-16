@@ -20,12 +20,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.xolstice.maven.plugins</groupId>
+    <groupId>com.dremio.maven.plugins</groupId>
     <artifactId>protobuf-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
     <name>Maven Protocol Buffers Plugin</name>
     <version>0.7.0-SNAPSHOT</version>
-    <url>https://www.xolstice.org/protobuf-maven-plugin</url>
+    <url>https://dremio.github.io/protobuf-maven-plugin</url>
     <description>Maven Plugin that executes the Protocol Buffers (protoc) compiler</description>
     <inceptionYear>2016</inceptionYear>
 
@@ -53,7 +53,7 @@
 
     <organization>
         <name>Maven Protocol Buffers Plugin Authors</name>
-        <url>https://github.com/xolstice/protobuf-maven-plugin/blob/master/AUTHORS</url>
+        <url>https://github.com/dremio/protobuf-maven-plugin/blob/main/AUTHORS</url>
     </organization>
 
     <licenses>
@@ -77,32 +77,26 @@
     </developers>
 
     <scm>
-        <url>https://github.com/xolstice/protobuf-maven-plugin</url>
-        <connection>scm:git:git://github.com/xolstice/protobuf-maven-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/xolstice/protobuf-maven-plugin.git</developerConnection>
+        <url>https://github.com/dremio/protobuf-maven-plugin</url>
+        <connection>scm:git:git://github.com/dremio/protobuf-maven-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/dremio/protobuf-maven-plugin.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
-        <downloadUrl>https://bintray.com/xolstice/maven/protobuf-maven-plugin/view</downloadUrl>
         <site>
             <!--
                 release:perform checks this element to determine whether site-deploy goal needs to be run.
                 The actual site deployment is done by GitHub site-maven-plugin, so the URL here is not used.
             -->
             <id>gh-pages</id>
-            <url>https://github.com/xolstice/protobuf-maven-plugin/tree/gh-pages</url>
+            <url>https://github.com/dremio/protobuf-maven-plugin/tree/gh-pages</url>
         </site>
-        <repository>
-            <id>bintray</id>
-            <name>Releases on Bintray</name>
-            <url>https://api.bintray.com/maven/xolstice/maven/protobuf-maven-plugin</url>
-        </repository>
     </distributionManagement>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/xolstice/protobuf-maven-plugin/issues/</url>
+        <url>https://github.com/dremio/protobuf-maven-plugin/issues/</url>
     </issueManagement>
 
     <build>
